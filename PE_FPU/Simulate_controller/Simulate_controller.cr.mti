@@ -1,0 +1,14 @@
+E:/RESEARCH_AVANCEMENT/Design_Architect/Test_PE/PE_FPU_github/PE_Array/PE_FPU/Simulate_controller/controller_tb.v {0 {vlog -work work -stats=none E:/RESEARCH_AVANCEMENT/Design_Architect/Test_PE/PE_FPU_github/PE_Array/PE_FPU/Simulate_controller/controller_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module controller_tb
+** Error: E:/RESEARCH_AVANCEMENT/Design_Architect/Test_PE/PE_FPU_github/PE_Array/PE_FPU/Simulate_controller/controller_tb.v(25): (vlog-2110) Illegal reference to net array "o_image".
+
+} {4.0 5.0} {}} E:/RESEARCH_AVANCEMENT/Design_Architect/Test_PE/PE_FPU_github/PE_Array/PE_FPU/Simulate_controller/controller.sv {1 {vlog -work work -sv -stats=none E:/RESEARCH_AVANCEMENT/Design_Architect/Test_PE/PE_FPU_github/PE_Array/PE_FPU/Simulate_controller/controller.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module controller
+-- Compiling module buffer
+
+Top level modules:
+	controller
+
+} {} {}}

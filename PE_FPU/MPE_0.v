@@ -6,11 +6,13 @@
     input i_rest_n,
     input weight_en,
     input i_left_en,
+    input i_right_en,
 
 	input [DATA_WIDTH - 1 : 0] i_fmap_f_left,
     input [DATA_WIDTH - 1 : 0] weight_f_top,
     input [DATA_WIDTH - 1 : 0] psum_f_top,
-    output [DATA_WIDTH - 1 : 0] psum_t_down
+    output reg [DATA_WIDTH - 1 : 0] i_fmap_t_right,
+    output  [DATA_WIDTH - 1 : 0] psum_t_down
 
 );  
     reg [DATA_WIDTH - 1 : 0] weight;
@@ -23,6 +25,9 @@
             psum <= 32'h0;
         end else if (weight_en) begin
             weight <= weight_f_top;
+        end
+        else if(i_right_en)begin
+            i_fmap_t_right <= i_fmap_f_left;
         end
         else if (i_left_en) begin
             i_left <= i_fmap_f_left;
