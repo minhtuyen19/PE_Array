@@ -1,0 +1,20 @@
+# system info FPU_mul on 2024.01.04.11:56:21
+system_info:
+name,value
+DEVICE,1SX280HU2F50E1VG
+DEVICE_FAMILY,Stratix 10
+GENERATION_ID,0
+#
+#
+# Files generated for FPU_mul on 2024.01.04.11:56:21
+files:
+filepath,kind,attributes,module,is_top
+sim/FPU_mul.v,VERILOG,CONTAINS_INLINE_CONFIGURATION,FPU_mul,true
+altera_fp_functions_191/sim/dspba_library_package.vhd,VHDL,,FPU_mul_altera_fp_functions_191_56r2tja,false
+altera_fp_functions_191/sim/dspba_library.vhd,VHDL,,FPU_mul_altera_fp_functions_191_56r2tja,false
+altera_fp_functions_191/sim/FPU_mul_altera_fp_functions_191_56r2tja.vhd,VHDL,,FPU_mul_altera_fp_functions_191_56r2tja,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+FPU_mul.fp_functions_0,FPU_mul_altera_fp_functions_191_56r2tja

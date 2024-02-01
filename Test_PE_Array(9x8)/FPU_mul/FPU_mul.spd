@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="altera_fp_functions_191/sim/dspba_library_package.vhd"
+   type="VHDL"
+   library="altera_fp_functions_191" />
+ <file
+   path="altera_fp_functions_191/sim/dspba_library.vhd"
+   type="VHDL"
+   library="altera_fp_functions_191" />
+ <file
+   path="altera_fp_functions_191/sim/FPU_mul_altera_fp_functions_191_56r2tja.vhd"
+   type="VHDL"
+   library="altera_fp_functions_191" />
+ <file
+   path="sim/FPU_mul.v"
+   type="VERILOG"
+   library="FPU_mul"
+   hasInlineConfiguration="true" />
+ <topLevel name="FPU_mul.FPU_mul" />
+ <deviceFamily name="stratix10" />
+</simPackage>
