@@ -1,0 +1,274 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/RESEARCH_AVANCEMENT/Design_Architect/Test_PE/PE_FPU/sim_script
+Edspba_delay
+Z1 w1704344331
+Z2 DPx4 work 21 dspba_library_package 0 22 F4K;2;[h<9EVoeW6CXACC2
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8../FPU_add_sub/altera_fp_functions_191/sim/dspba_library.vhd
+Z6 F../FPU_add_sub/altera_fp_functions_191/sim/dspba_library.vhd
+l0
+L18
+VH]N:B3IR^gFB5358DcY8J0
+!s100 kHSf7SYUPMeHfO3d[RNoT3
+Z7 OV;C;10.6d;65
+32
+Z8 !s110 1706686798
+!i10b 1
+Z9 !s108 1706686798.000000
+Z10 !s90 -reportprogress|300|../FPU_add_sub/altera_fp_functions_191/sim/dspba_library.vhd|-work|altera_fp_functions_191|
+Z11 !s107 ../FPU_add_sub/altera_fp_functions_191/sim/dspba_library.vhd|
+!i113 1
+Z12 o-work altera_fp_functions_191
+Z13 tExplicit 1 CvgOpt 0
+Adelay
+R2
+R3
+R4
+DEx4 work 11 dspba_delay 0 22 H]N:B3IR^gFB5358DcY8J0
+l39
+L36
+V<I7PY=oR;4miOc0C:zk?O3
+!s100 jzBl66Ha5R9dJLa@9<zO11
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Pdspba_library_package
+R3
+R4
+R1
+R0
+8../FPU_add_sub/altera_fp_functions_191/sim/dspba_library_package.vhd
+F../FPU_add_sub/altera_fp_functions_191/sim/dspba_library_package.vhd
+l0
+L17
+VF4K;2;[h<9EVoeW6CXACC2
+!s100 C@:I@BV>c3O<g3F?`O5^]3
+R7
+32
+R8
+!i10b 1
+R9
+!s90 -reportprogress|300|../FPU_add_sub/altera_fp_functions_191/sim/dspba_library_package.vhd|-work|altera_fp_functions_191|
+!s107 ../FPU_add_sub/altera_fp_functions_191/sim/dspba_library_package.vhd|
+!i113 1
+R12
+R13
+Edspba_pipe
+R1
+Z14 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R3
+R4
+R0
+R5
+R6
+l0
+L345
+V8A[Ce?3N5n7fj9J<H5lj;2
+!s100 <CjaOhGUKJl_56Y44;84A1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Artl
+R14
+R3
+R4
+DEx4 work 10 dspba_pipe 0 22 8A[Ce?3N5n7fj9J<H5lj;2
+l364
+L358
+V?1_lgC^C_di^jFSSGlO;d2
+!s100 f:WZ[zjKjcHBkCzMWS1CS1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Edspba_sync_reg
+R1
+R2
+R14
+R3
+R4
+R0
+R5
+R6
+l0
+L95
+VDEgK81XhW7GfHcg`_RN^62
+!s100 fB7XTC?]B7mdSooQU__o@3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Async_reg
+R2
+R14
+R3
+R4
+DEx4 work 14 dspba_sync_reg 0 22 DEgK81XhW7GfHcg`_RN^62
+l138
+L119
+V=b]GK9R86<_fVc0kAR4:m2
+!s100 ZLzELI9>@eRa3NC?WOKKE2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Efpu_add_sub_altera_fp_functions_191_274fvhq
+R1
+Z15 DPx10 fourteennm 19 fourteennm_mac_pack 0 22 8:INgz;k4@OV3gQ0Z70LE3
+Z16 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z17 DPx10 fourteennm 20 fourteennm_atom_pack 0 22 >7dXhnTk^j`DSdOC1^OXV3
+Z18 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z19 DPx10 fourteennm 21 fourteennm_components 0 22 YLj>4f9;@kEZE;_2:U4Ek3
+Z20 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 lPjga<`XObX2m?Qb:h16j2
+Z21 DPx9 altera_mf 20 altera_mf_components 0 22 IcT^mOA^fdXeJdVmRiOjz1
+R2
+Z22 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+R14
+R3
+R4
+R0
+Z23 8../FPU_add_sub/altera_fp_functions_191/sim/FPU_add_sub_altera_fp_functions_191_274fvhq.vhd
+Z24 F../FPU_add_sub/altera_fp_functions_191/sim/FPU_add_sub_altera_fp_functions_191_274fvhq.vhd
+l0
+L38
+V16bFJjVHTe8PbWc4[Fi7=0
+!s100 PIlB]^l>B]RFM_[BfY4923
+R7
+32
+R8
+!i10b 1
+R9
+Z25 !s90 -reportprogress|300|../FPU_add_sub/altera_fp_functions_191/sim/FPU_add_sub_altera_fp_functions_191_274fvhq.vhd|-work|altera_fp_functions_191|
+Z26 !s107 ../FPU_add_sub/altera_fp_functions_191/sim/FPU_add_sub_altera_fp_functions_191_274fvhq.vhd|
+!i113 1
+R12
+R13
+Anormal
+R15
+R16
+R17
+R18
+R19
+R20
+R21
+R2
+R22
+R14
+R3
+R4
+Z27 DEx4 work 43 fpu_add_sub_altera_fp_functions_191_274fvhq 0 22 16bFJjVHTe8PbWc4[Fi7=0
+l440
+L49
+Z28 V2jK4c?OdmFgL3T[l3U<883
+Z29 !s100 eHPP6:iQ:Zh<86jZETbdG0
+R7
+32
+R8
+!i10b 1
+R9
+R25
+R26
+!i113 1
+R12
+R13
+Efpu_mul_altera_fp_functions_191_56r2tja
+Z30 w1704344181
+R15
+R16
+R17
+R18
+R19
+R20
+R21
+R2
+R22
+R14
+R3
+R4
+R0
+Z31 8../FPU_mul/altera_fp_functions_191/sim/FPU_mul_altera_fp_functions_191_56r2tja.vhd
+Z32 F../FPU_mul/altera_fp_functions_191/sim/FPU_mul_altera_fp_functions_191_56r2tja.vhd
+l0
+L38
+VDYSAfNKDfN<OE0gn?7gOk1
+!s100 >?7lKc2TSc12nMMPXJgLn0
+R7
+32
+R8
+!i10b 1
+R9
+Z33 !s90 -reportprogress|300|../FPU_mul/altera_fp_functions_191/sim/FPU_mul_altera_fp_functions_191_56r2tja.vhd|-work|altera_fp_functions_191|
+Z34 !s107 ../FPU_mul/altera_fp_functions_191/sim/FPU_mul_altera_fp_functions_191_56r2tja.vhd|
+!i113 1
+R12
+R13
+Anormal
+R15
+R16
+R17
+R18
+R19
+R20
+R21
+R2
+R22
+R14
+R3
+R4
+DEx4 work 39 fpu_mul_altera_fp_functions_191_56r2tja 0 22 DYSAfNKDfN<OE0gn?7gOk1
+l60
+L48
+VPk66lniTXj^9JNNoYeOI?1
+!s100 Jgl^MeZTzLO2K3?N15Mln2
+R7
+32
+R8
+!i10b 1
+R9
+R33
+R34
+!i113 1
+R12
+R13

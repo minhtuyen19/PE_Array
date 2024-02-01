@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/RESEARCH_AVANCEMENT/Design_Architect/Test_PE/PE_FPU/sim_script
+vMPE_0
+Z1 !s110 1704613781
+!i10b 1
+!s100 FjYKRYZa@JcP_VPnkifYD2
+IA2YOeUVZQP?omJFOPBDKM1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1704417932
+8E:/RESEARCH_AVANCEMENT/Design_Architect/Test_PE/PE_FPU/MPE_0.v
+FE:/RESEARCH_AVANCEMENT/Design_Architect/Test_PE/PE_FPU/MPE_0.v
+L0 1
+Z3 OV;L;10.6d;65
+r1
+!s85 0
+31
+Z4 !s108 1704613781.000000
+!s107 E:/RESEARCH_AVANCEMENT/Design_Architect/Test_PE/PE_FPU/MPE_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|E:/RESEARCH_AVANCEMENT/Design_Architect/Test_PE/PE_FPU/MPE_0.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 tCvgOpt 0
+n@m@p@e_0
+vPE_fpu
+R1
+!i10b 1
+!s100 HHck[Hc]ZO38hN6cI;IhI0
+IZzgZoM^9a4X5IJETlFDGa0
+R2
+R0
+w1704418000
+8E:/RESEARCH_AVANCEMENT/Design_Architect/Test_PE/PE_FPU/PE_fpu.v
+FE:/RESEARCH_AVANCEMENT/Design_Architect/Test_PE/PE_FPU/PE_fpu.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/RESEARCH_AVANCEMENT/Design_Architect/Test_PE/PE_FPU/PE_fpu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|E:/RESEARCH_AVANCEMENT/Design_Architect/Test_PE/PE_FPU/PE_fpu.v|
+!i113 1
+R5
+R6
+n@p@e_fpu
+vtb
+R1
+!i10b 1
+!s100 9:=lMl>gKB0@1M7OkOm^b1
+IDceD]1?[^l]MdBi9nB3j53
+R2
+R0
+w1704613771
+8E:/RESEARCH_AVANCEMENT/Design_Architect/Test_PE/PE_FPU/tb.v
+FE:/RESEARCH_AVANCEMENT/Design_Architect/Test_PE/PE_FPU/tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/RESEARCH_AVANCEMENT/Design_Architect/Test_PE/PE_FPU/tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|E:/RESEARCH_AVANCEMENT/Design_Architect/Test_PE/PE_FPU/tb.v|
+!i113 1
+R5
+R6

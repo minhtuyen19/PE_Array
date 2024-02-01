@@ -1,0 +1,32 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/RESEARCH_AVANCEMENT/Design_Architect/Test_PE/PE_FPU/sim_script
+vFPU_mul
+!s110 1706686798
+!i10b 1
+!s100 D=I[6MM@nTf8mbWPo0VE60
+Iknajk:]5ACCKSKNz3Eh?d1
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1704344174
+8../FPU_mul/sim/FPU_mul.v
+F../FPU_mul/sim/FPU_mul.v
+L0 6
+OV;L;10.6d;65
+r1
+!s85 0
+31
+!s108 1706686798.000000
+!s107 ../FPU_mul/sim/FPU_mul.v|
+!s90 -reportprogress|300|../FPU_mul/sim/FPU_mul.v|-work|FPU_mul|
+!i113 1
+o-work FPU_mul
+tCvgOpt 0
+n@f@p@u_mul
