@@ -180,3 +180,75 @@ PE_fpu #(
                     .psum_t_down(psum_t_down)
                 );		
 endmodule
+
+
+//======================================CODE_VERSION_2=============================================
+module MPE #(
+    parameter DATA_WIDTH = 32,
+    parameter NUMBER_PE = 9
+)
+(
+    input i_clk,
+    input i_rest_n,
+    input weight_en,
+    input [0:0] i_left_en[NUMBER_PE - 1:0],
+    input [0:0] i_right_en[NUMBER_PE - 1:0],
+    input [DATA_WIDTH - 1:0]psum_f_top,
+    input [DATA_WIDTH - 1:0]i_fmap_f_left[NUMBER_PE - 1:0],
+    input [DATA_WIDTH - 1:0]weight_f_top[NUMBER_PE - 1:0],
+    output[DATA_WIDTH - 1:0]i_fmap_t_right[NUMBER_PE - 1:0],
+    output[DATA_WIDTH - 1:0]psum_t_down 
+);
+    wire [DATA_WIDTH - 1:0]psum[NUMBER_PE - 2:0];
+   
+        PE_fpu #(
+                     .DATA_WIDTH(DATA_WIDTH)
+            ) process_element_00(
+                     .i_clk(i_clk),
+                     .i_rest_n(i_rest_n),
+                     .weight_en(weight_en),
+                     .i_left_en(i_left_en[0]),
+                     .i_right_en(i_right_en[0]),
+                     .i_fmap_f_left(i_fmap_f_left[0]),
+                     .weight_f_top(weight_f_top[0]),
+                     .psum_f_top(psum_f_top),
+                     .i_fmap_t_right(i_fmap_t_right[0]),
+                     .psum_t_down(psum[0])
+            );
+    genvar i;
+    generate
+        for(i = 1; i < NUMBER_PE-1; i = i + 1)begin	    
+                PE_fpu #(
+                     .DATA_WIDTH(DATA_WIDTH)
+            ) process_element_0(
+                     .i_clk(i_clk),
+                     .i_rest_n(i_rest_n),
+                     .weight_en(weight_en),
+                     .i_left_en(i_left_en[i]),
+                     .i_right_en(i_right_en[i]),
+                     .i_fmap_f_left(i_fmap_f_left[i]),
+                     .weight_f_top(weight_f_top[i]),
+                     .psum_f_top(psum[i-1]),
+                     .i_fmap_t_right(i_fmap_t_right[i]),
+                     .psum_t_down(psum[i])
+            );
+            
+        end	
+    endgenerate
+                PE_fpu #(
+                     .DATA_WIDTH(DATA_WIDTH)
+            ) process_element_80(
+                     .i_clk(i_clk),
+                     .i_rest_n(i_rest_n),
+                     .weight_en(weight_en),
+                     .i_left_en(i_left_en[8]),
+                     .i_right_en(i_right_en[8]),
+                     .i_fmap_f_left(i_fmap_f_left[8]),
+                     .weight_f_top(weight_f_top[8]),
+                     .psum_f_top(psum[7]),
+                     .i_fmap_t_right(i_fmap_t_right[8]),
+                     .psum_t_down(psum_t_down)
+            );
+
+endmodule
+
